@@ -778,6 +778,7 @@ body {
 
 .divform {
     margin-bottom: 8px;
+    position:relative;
 }
 
 .divlabel {
@@ -794,7 +795,7 @@ body {
     position: relative;
 }
 
-.label-container .inputform {
+.inputform {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -809,7 +810,7 @@ body {
     border-color: var(--ocean);
 }
 
-.labelcontainer .inputicon {
+.inputicon {
     position: absolute;
     left: 16px;
     top: 50%;
