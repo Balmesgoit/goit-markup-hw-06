@@ -794,7 +794,7 @@ body {
     position: relative;
 }
 
-.inputform {
+.label-container .inputform {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -809,7 +809,7 @@ body {
     border-color: var(--ocean);
 }
 
-.inputicon {
+.labelcontainer .inputicon {
     position: absolute;
     left: 16px;
     top: 50%;
