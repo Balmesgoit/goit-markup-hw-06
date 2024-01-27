@@ -865,7 +865,7 @@ body {
     line-height: 16px;
 }
 
-.checkform:checked + .checkboxicon {
+.checkform:checked + .underline {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
