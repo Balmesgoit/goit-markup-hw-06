@@ -857,6 +857,7 @@ body {
 .privacycheck {
     margin-bottom: 24px;
 }
+
 .privacypolicy {
     color: var(--iris);
 }
@@ -867,7 +868,7 @@ body {
     line-height: 16px;
 }
 
-.checkform:checked + .underline {
+.checkform:checked + .checkboxicon {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
