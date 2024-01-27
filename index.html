@@ -466,22 +466,21 @@
                     </div>
                 </div>
                 <!---COMMENT---->
-                <div class="divform">
-                    <label class="divlabel">Comment                    
+                <div class="div-comment">
+                    <label for="user-comment" class="divlabel">Comment                    
                     </label>
-                    <textarea name="feedback" rows="5" placeholder="Text input" class="comment"></textarea>
+                    <textarea id="user-comment" name="user-comment" rows="5" placeholder="Text input" class="comment"></textarea>
                 </div>
                 <!---CHECKBOX---->
-                <div class="divform">
-                    <input type="checkbox" name="terms" value="terms" id="user-privacy" class="visually-hidden checkform">
-                    <label class="divlabel" for="terms">I accept the terms and conditions of the 
-                    <a class="privacypolicy" href="./index.html">
+                <div class="div-checkbox">
+                    <input type="checkbox" name="user-privacy" value="true" id="user-privacy" class="visually-hidden checkform">
+                    <label id="user-privacy" class="divlabel" for="terms">
                         <span class="underline">Privacy Policy
                             <svg class="inputicon" width="10" height="8">
                                 <use href="./images/icons.svg#checkbox"></use>
                             </svg>
                         </span>
-                    </a>
+                    <a class="privacypolicy" href="./index.html">Privacy Policy</a>
                     </label>
                 </div>
                 <!----BUTTON---->
