@@ -912,7 +912,9 @@ body {
     fill: transparent;
 }
 
-
+.checkboxicon {
+    position: relative;
+}
 
 
 /*Portfolio*/
