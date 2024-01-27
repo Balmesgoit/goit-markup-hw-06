@@ -778,7 +778,10 @@ body {
 
 .signup-form {
     margin-bottom: 8px;
-    position:relative;
+}
+
+.divform {
+    margin-bottom: 8px;
 }
 
 .divlabel {
@@ -788,7 +791,7 @@ body {
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.48px;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .div-input {
