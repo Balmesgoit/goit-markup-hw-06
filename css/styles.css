@@ -913,6 +913,8 @@ body {
 
 .checkboxicon {
     position: relative;
+    min-width: 169px;
+    height: 56px;
 }
 
 
