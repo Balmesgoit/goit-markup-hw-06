@@ -1181,13 +1181,14 @@ body {
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.64px;
     cursor: pointer;
     border: none;
+
 }
 
 .subscribeicon {
